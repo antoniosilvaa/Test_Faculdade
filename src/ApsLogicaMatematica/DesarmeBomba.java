@@ -1,20 +1,17 @@
 package ApsLogicaMatematica;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class DesarmeBomba {
     public static void main(String[] args) {
-        int codigo1;
-        int codigo2;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite o primeiro codigo: ");
-        codigo1 = sc.nextInt();
-        System.out.println("Digite o segundo codigo: ");
-        codigo2 = sc.nextInt();
-        if (!(codigo1 == 12) && !(codigo2 == 13) ){
-            System.out.println("Voce desarmou a bomba");
+        String codigo1 = JOptionPane.showInputDialog("Digite o primeiro codigo:");
+        String codigo2 = JOptionPane.showInputDialog("Digite o segundo codigo:");
+
+        if (codigo1 != null && codigo2 != null && codigo1.equals("12") && codigo2.equals("13")){
+            JOptionPane.showMessageDialog(null, "\uD83D\uDCA5 A BOMBA EXPLODIU \uD83D\uDCA5", "ALERTA!!", JOptionPane.ERROR_MESSAGE);
         }else {
-            System.out.println("A bomba explodiu");
+            JOptionPane.showMessageDialog(null,"✅ Você desarmou a bomba!", "SUCESSO", JOptionPane.INFORMATION_MESSAGE);
         }
     }
 }
