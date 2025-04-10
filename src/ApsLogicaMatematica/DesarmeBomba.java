@@ -1,7 +1,7 @@
 package ApsLogicaMatematica;
 
 import javax.swing.*;
-import java.util.Scanner;
+
 
 public class DesarmeBomba {
     public static void main(String[] args) {
