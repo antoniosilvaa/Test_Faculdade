@@ -16,7 +16,6 @@ public class AtividadeLogicaProgramação {
                         "Quantas " + frutas[i] + " você gostaria de comprar?"
                 );
 
-                // verificar se o user deixou em branco
                 if (entrada == null || entrada.trim().isEmpty()) {
                     quantidades[i] = 0;
                 } else {
