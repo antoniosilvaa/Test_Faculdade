@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class AtividadeLogicaProgramação {
         public static void main(String[] args) {
-            String[] frutas = {"Banana", "Maçã", "Pera"};
+            String[] frutas = {"Banana ", "Maçã", "Pera"};
             double[] precoNormal = {1.30, 1.50, 1.00};
             double[] precoDesconto = {1.15, 1.20, 0.80};
             int[] quantidades = new int[3];
