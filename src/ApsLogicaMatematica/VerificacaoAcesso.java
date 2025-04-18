@@ -15,7 +15,7 @@ public class VerificacaoAcesso {
         JPanel painel = new JPanel();
         painel.setLayout(new GridLayout(5, 1, 10, 5));
         painel.setBackground(Color.DARK_GRAY);
-        painel.setBorder(new LineBorder(new Color(0, 204, 204), 3)); // azul ciano neon
+        painel.setBorder(new LineBorder(new Color(0, 204, 204), 3));
 
 
         JCheckBox disfarce = new JCheckBox("👤 Disfarce ativado");
