@@ -71,7 +71,8 @@ public class ApsLogicaDeProgrmacao {
                 opcoes = new String[]{
                         "A) Superioridade das mulheres",
                         "B) Igualdade entre os sexos",
-                        "C) Dominação feminina"
+                        "C) Dominação feminina",
+                        "D) Nenhuma resposta acima está correta!"
                 };
                 respostaCorreta = 1;
                 break;
@@ -80,7 +81,8 @@ public class ApsLogicaDeProgrmacao {
                 opcoes = new String[]{
                         "A) Mulheres são melhores que homens",
                         "B) Apenas os homens têm direitos iguais",
-                        "C) Todos têm os mesmos direitos e oportunidades"
+                        "C) Todos têm os mesmos direitos e oportunidades",
+                        "D) Todas acima estão corretas!"
                 };
                 respostaCorreta = 2;
                 break;
@@ -89,7 +91,8 @@ public class ApsLogicaDeProgrmacao {
                 opcoes = new String[]{
                         "A) Aumento de salários apenas para homens",
                         "B) Combate à violência de gênero",
-                        "C) Redução da representatividade feminina"
+                        "C) Redução da representatividade feminina",
+                        "D) Redução dos salarios para todos"
                 };
                 respostaCorreta = 1;
                 break;
