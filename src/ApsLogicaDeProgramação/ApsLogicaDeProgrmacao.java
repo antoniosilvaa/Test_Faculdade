@@ -72,7 +72,7 @@ public class ApsLogicaDeProgrmacao {
                         "A) Superioridade das mulheres",
                         "B) Igualdade entre os sexos",
                         "C) Dominação feminina",
-                        "D) Nenhuma resposta acima está correta!"
+                        "D) Nenhuma resposta está correta!"
                 };
                 respostaCorreta = 1;
                 break;
@@ -82,7 +82,7 @@ public class ApsLogicaDeProgrmacao {
                         "A) Mulheres são melhores que homens",
                         "B) Apenas os homens têm direitos iguais",
                         "C) Todos têm os mesmos direitos e oportunidades",
-                        "D) Todas acima estão corretas!"
+                        "D) Todas estão corretas!"
                 };
                 respostaCorreta = 2;
                 break;
